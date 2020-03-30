@@ -1,0 +1,40 @@
+body {
+    background: #d8d8d8;
+    color: rgba(0, 0, 0, 0.45);
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+h1 {
+    font-weight: normal;
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 5em;
+    
+    margin-top: 35vh;
+    margin-bottom: 5vh;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    font-family: monospace;
+    display: table;
+    margin: auto;
+    padding: 40px 70px 40px 80px;
+    cursor: pointer;
+    font-size: 2.25em;
+    border-radius: 30px;
+    background: #d8d8d8;
+    box-shadow:  19px 19px 38px #b8b8b8, 
+                -19px -19px 38px #f8f8f8;
+}
+
+label:active {
+    padding: 43px 70px 37px 80px;
+    box-shadow: inset 19px 19px 38px #b8b8b8, 
+                inset -19px -19px 38px #f8f8f8;
+}
